@@ -39,7 +39,7 @@ public class StunSlamAssistClient implements ClientModInitializer {
     private static KeyBinding configKey;
 
     private static final KeyBinding.Category CATEGORY =
-        KeyBinding.Category.register(Identifier.of(MOD_ID, "main"));
+        KeyBinding.Category.create(Identifier.of(MOD_ID, "main"));
 
     @Override
     public void onInitializeClient() {
